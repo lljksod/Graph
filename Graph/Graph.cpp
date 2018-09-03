@@ -7,3 +7,8 @@
 //
 
 #include "Graph.hpp"
+
+namespace burch_graph
+{
+    
+}

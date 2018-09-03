@@ -11,4 +11,9 @@
 
 #include <stdio.h>
 
+namespace burch_graph
+{
+    
+}
+
 #endif /* Graph_hpp */
