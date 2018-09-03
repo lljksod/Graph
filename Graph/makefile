@@ -7,11 +7,11 @@ main.o: main.cpp
 Graph.o: Graph.cpp Graph.hpp
 	g++ -c Interpreter.cpp
 
-test: tests.o
-	g++ -std=c++11 tests.o -o test
+test: test.o
+	g++ -std=c++11 test.o -o test
 
-tests.o: tests.cpp
-	g++ -c -std=c++11 tests.cpp
+test.o: test.cpp
+	g++ -c -std=c++11 test.cpp
 
 maintest:
 	./Graph < input.txt
